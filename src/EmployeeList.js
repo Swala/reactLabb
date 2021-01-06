@@ -45,6 +45,7 @@ function EmployeeList(){
 
     return (
         <>  
+            <h2>EmployeeList</h2>
             <button className ="button" onClick= {() =>
                 handleAddEmployee()
             }>Add Employee</button>
